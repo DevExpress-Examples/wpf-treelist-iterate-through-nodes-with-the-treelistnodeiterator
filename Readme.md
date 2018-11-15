@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Employees.cs](./CS/WpfApplication1/Employees.cs) (VB: [Employees.vb](./VB/WpfApplication1/Employees.vb))
+* [MainWindow.xaml](./CS/WpfApplication1/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/WpfApplication1/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/WpfApplication1/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication1/MainWindow.xaml.vb))
+<!-- default file list end -->
 # How to: Iterate Through Nodes via the Node Iterator
 
 
