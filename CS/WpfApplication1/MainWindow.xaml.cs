@@ -2,22 +2,19 @@
 using DevExpress.Xpf.Grid;
 
 namespace WpfApplication1 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
-            grid.ItemsSource = Stuff.GetStuff();
+            grid.ItemsSource = Staff.GetStaff();
         }
 
-        private void SmartExpandNodes(int minChildCount) {
-            TreeListNodeIterator nodeIterator = new TreeListNodeIterator(treeListView.Nodes, true);
+        void SmartExpandNodes(int minChildCount) {
+            TreeListNodeIterator nodeIterator = new TreeListNodeIterator(view.Nodes, true);
             while (nodeIterator.MoveNext())
                 nodeIterator.Current.IsExpanded = nodeIterator.Current.Nodes.Count >= minChildCount;
         }
 
-        private void grid_Loaded(object sender, RoutedEventArgs e) {
+        void OnGridLoaded(object sender, RoutedEventArgs e) {
             SmartExpandNodes(4);
         }
     }
