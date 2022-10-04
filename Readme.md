@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WPF Tree List - Use the TreeListNodeIterator to Iterate Through Nodes
+# WPF Tree List - Iterate Through Nodes With the TreeListNodeIterator
 
 This example shows how to traverse through all visible nodes to expand ones that have 4 or more child nodes. Nodes that have less than 4 child nodes are collapsed.
 
