@@ -28,7 +28,7 @@ This example shows how to traverse through all visible nodes to expand ones that
 * [WPF Data Grid - Select Rows that Contain the Specified Value](https://github.com/DevExpress-Examples/how-to-select-rows-that-contain-the-specified-value-e1920)
 * [WPF Tree List - How to calculate custom Node Summaries](https://github.com/DevExpress-Examples/how-to-calculate-custom-node-summaries-in-treelistview-t506349)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-treelist-iterate-through-nodes-with-the-treelistnodeiterator&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-treelist-iterate-through-nodes-with-the-treelistnodeiterator&~~~was_helpful=no)
 
